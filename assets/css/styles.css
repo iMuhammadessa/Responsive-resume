@@ -118,8 +118,8 @@ body.scale-cv{
 }
 
 .scale-cv .home_img{
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
 }
 
 .scale-cv .home_container{
@@ -160,17 +160,17 @@ body.scale-cv{
 .scale-cv .experience_rounder{
   width: 11px;
   height: 11px;
-  margin-top: .27rem;
+  margin-top: .22rem;
 }
 
 .scale-cv .education_line{
   width: 1px;
-  height: 65px;
+  height: 70px;
   transform: translate(5px, 0);
 }
 .scale-cv .experience_line{
   width: 1px;
-  height: 130px;
+  height: 140px;
   transform: translate(5px, 0);
 }
 
