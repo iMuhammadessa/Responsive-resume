@@ -1,11 +1,11 @@
-/*===== GOOGLE FONTS =====*/
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/*===== VARIABLES CSS =====*/
+/* VARIABLES CSS */
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /* Colors */
   --title-color: #0b0a0a;
   --text-color: #403a3a;
   --text-color-light: #707070;
@@ -13,7 +13,7 @@
   --container-color-alt: #f0efef;
   --body-color: #fcfcfc;
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -22,21 +22,21 @@
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margins ==========*/
+  /* Margins */
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
-  /*========== z index ==========*/
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*========== BASE ==========*/
+/* BASE */
 *,
 ::before,
 ::after {
@@ -47,7 +47,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme */
 body.dark-theme{
   --title-color: #F2F2F2;
   --text-color: #BFBFBF;
@@ -57,7 +57,7 @@ body.dark-theme{
 }
 
 
-/*========== Button Dark/Light ==========*/
+/* Button Dark/Light */
 .change-theme{
   position: absolute;
   right: 0;
@@ -71,7 +71,7 @@ body.dark-theme{
 .change-theme:hover{
   color: var(--text-color);
 }
-/*========== Font size variables to scale cv ==========*/
+/* Font size variables to scale cv */
 body.scale-cv{
   --h1-font-size: .938rem;
   --h2-font-size: .938rem;
@@ -80,7 +80,7 @@ body.scale-cv{
   --small-font-size: 0.75rem;
   --smaller-font-size: 0.688rem;
 }
-/*========== Generate PDF button ==========*/
+/* Generate PDF button */
 .generate-pdf{
   display: none;
   position: absolute;
@@ -94,7 +94,7 @@ body.scale-cv{
 .generate-pdf:hover{
   color: var(--title-color);
 }
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+/* Classes modified to reduce size and print on A4 sheet */
 .scale-cv .change-theme,
 .scale-cv .generate-pdf{
   display: none;
@@ -123,11 +123,11 @@ body.scale-cv{
 }
 
 .scale-cv .home_container{
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .scale-cv .home_data{
-  gap: .25rem;
+  gap: .20rem;
 }
 
 .scale-cv .home_address,
@@ -141,15 +141,16 @@ body.scale-cv{
   font-size: 1rem;
 }
 
-.scale-cv .education_content,
+.scale-cv .education_container,
 .scale-cv .experience_container,
 .scale-cv .certificate_container{
-  gap: 1rem;
+  gap: 0;
 }
 
 .scale-cv .education_time,
 .scale-cv .experience_time{
   padding-right: .5rem;
+  gap: 0;
 }
 
 .scale-cv .education_rounder,
@@ -162,7 +163,7 @@ body.scale-cv{
 .scale-cv .education_line,
 .scale-cv .experience_line{
   width: 1px;
-  height: 110px;
+  height: 70px;
   transform: translate(5px, 0);
 }
 
@@ -176,7 +177,7 @@ body.scale-cv{
 }
 
 .scale-cv .interests_container{
-  column-gap: 2.5rem;
+  column-gap: 1.5rem;
 }
 
 body {
@@ -217,7 +218,7 @@ img {
   height: auto;
 }
 
-/*========== CLASS CSS ==========*/
+/* CLASS CSS */
 .section {
   padding: 1.5rem 0;
 }
@@ -232,7 +233,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-/*========== LAYOUT ==========*/
+/* LAYOUT */
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
@@ -256,7 +257,7 @@ img {
   transition: 0.3s;
 }
 
-/*========== NAV ==========*/
+/* NAV */
 .nav {
   height: var(--header-height);
   display: flex;
@@ -325,7 +326,7 @@ img {
   color: var(--title-color);
 }
 }
-/*========== HOME ==========*/
+/* HOME */
 .home{
   position: relative;
 }
@@ -387,7 +388,7 @@ img {
   color: var(--container-color);
 }
 
-/*========== SOCIAL ==========*/
+/* SOCIAL */
 .social_container{
   grid-template-columns: max-content;
   gap: 1rem;
@@ -408,11 +409,11 @@ img {
   font-size: 1.2rem;
   margin-right: .25rem;
 }
-/*========== PROFILE ==========*/
+/* PROFILE */
 .profile_description{
   text-align: center;
 }
-/*========== EDUCATION AND EXPERIENCE ==========*/
+/* EDUCATION AND EXPERIENCE */
 .education_content,
 .experience_content{
   display: flex;
@@ -462,7 +463,7 @@ img {
 .education_year{
   font-size: var(--smaller-font-size);
 }
-/*========== SKILLS AND LANGUAGES ==========*/
+/* SKILLS AND LANGUAGES */
 .skills_content,
 .languages_content{
   grid-template-columns: repeat(2, 1fr);
@@ -488,12 +489,12 @@ img {
   border-radius: 50%;
   margin-right: .75rem;
 }
-/*========== CERTIFICATES ==========*/
+/* CERTIFICATES */
 .certificate_title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
-/*========== REFERENCES ==========*/
+/* REFERENCES */
 .references_content{
   gap: .25rem;
 }
@@ -506,7 +507,7 @@ img {
 .references_contact{
   font-size: var(--smaller-font-size);
 }
-/*========== INTERESTS ==========*/
+/* INTERESTS */
 .interests_container{
   grid-template-columns: repeat(3, 1fr);
   margin-top: var(--mb-2);
