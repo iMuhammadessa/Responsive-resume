@@ -101,7 +101,7 @@ body.scale-cv{
 }
 
 .scale-cv .bd-container{
-  max-width: 595px;
+  max-width: 700px;
 }
 
 .scale-cv .section{
@@ -277,7 +277,6 @@ img {
     z-index: var(--z-fixed)
     transition: 0.3s;
   }
-}
 
 .nav_logo, .nav_toggle {
   color: var(--title-color);
@@ -325,7 +324,7 @@ img {
 .active-link{
   color: var(--title-color);
 }
-
+}
 /*========== HOME ==========*/
 .home{
   position: relative;
