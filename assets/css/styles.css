@@ -149,7 +149,7 @@ body.scale-cv{
 
 .scale-cv .education_time,
 .scale-cv .experience_time{
-  padding-right: .5rem;
+  padding-right: 1.5rem;
   gap: 0;
 }
 
@@ -157,19 +157,23 @@ body.scale-cv{
 .scale-cv .experience_rounder{
   width: 11px;
   height: 11px;
-  margin-top: .22rem;
+  margin-top: .27rem;
 }
 
-.scale-cv .education_line,
-.scale-cv .experience_line{
+.scale-cv .education_line{
   width: 1px;
   height: 70px;
+  transform: translate(5px, 0);
+}
+.scale-cv .experience_line{
+  width: 1px;
+  height: 150px;
   transform: translate(5px, 0);
 }
 
 .scale-cv .education_data,
 .scale-cv .experience_data{
-  gap: .25rem;
+  gap: .20rem;
 }
 
 .scale-cv .skills_name{
@@ -558,6 +562,7 @@ img {
   }
 }
 
+
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px){
   body{
@@ -597,6 +602,7 @@ img {
   .section-title,
   .profile_description{
     text-align: initial;
+    gap: 0;
   }
 
   .home__container{
