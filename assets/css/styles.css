@@ -153,7 +153,7 @@ body.scale-cv{
 
 .scale-cv .education_time,
 .scale-cv .experience_time{
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 .scale-cv .education_rounder,
@@ -165,25 +165,31 @@ body.scale-cv{
 
 .scale-cv .education_line{
   width: 1px;
-  height: 65px;
+  height: 70px;
   transform: translate(5px, 0);
 }
+
+.scale-cv .education_title,
+.scale-cv .education_studies{
+  font-size: 12px;
+}
+
 .scale-cv .experience_line{
   width: 1px;
-  height: 140px;
+  height: 130px;
   transform: translate(5px, 0);
 }
 
 .scale-cv .education_data,
 .scale-cv .experience_data{
   gap: .20rem;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 
 .scale-cv .skills_name{
   margin-bottom: var(--mb-1);
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .scale-cv .interests_container{
