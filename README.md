@@ -1,7 +1,8 @@
 # Responsive-resume
 
 > Sponsor me at-least 1$ for more open source projects
+> https://www.patreon.com/imuhammadessa
 
-# Resume thumbnail:
+# My Resume thumbnail:
 
 ![Resume](assets/img/resume.png)
