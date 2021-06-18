@@ -160,12 +160,12 @@ body.scale-cv{
 .scale-cv .experience_rounder{
   width: 11px;
   height: 11px;
-  margin-top: .22rem;
+  margin-top: .2rem;
 }
 
 .scale-cv .education_line{
   width: 1px;
-  height: 70px;
+  height: 65px;
   transform: translate(5px, 0);
 }
 .scale-cv .experience_line{
@@ -177,13 +177,13 @@ body.scale-cv{
 .scale-cv .education_data,
 .scale-cv .experience_data{
   gap: .20rem;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
 .scale-cv .skills_name{
   margin-bottom: var(--mb-1);
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .scale-cv .interests_container{
